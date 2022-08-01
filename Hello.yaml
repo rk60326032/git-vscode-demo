@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: pod
+metadata: 
+  name: frontend_pod
+  labels:
+    app: benchmark
+    type: frontend
+spec:
+  container:
+    name: nginx
+    image: nginx:latest
+
+    ports:
+      TargetPort: 8080
