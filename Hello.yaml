@@ -9,6 +9,6 @@ spec:
   container:
     name: nginx
     image: nginx:latest
-
+    
     ports:
-      TargetPort: 8080
+      TargetPort: 8080 
